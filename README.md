@@ -56,7 +56,7 @@ All responses are saved:
 
 As logs in the current folder
 
-Hypothesis tables are extracted and saved as .csv
+Hypothesis tables are extracted and saved as .csv [Examples](examples)
 
 🧩 Try out our [JupyterNotebook](prompting.ipynb)!
 
