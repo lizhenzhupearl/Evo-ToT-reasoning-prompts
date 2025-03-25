@@ -36,6 +36,7 @@ summarising_all_hypotheses	Outputs final comparative table and trend summary
 🧠 **How It Works**
 1. Sequential Prompt Chaining
 
+```
 final_output = run_sequential_prompt_pipeline(
     module_names=[
         "Setting the rules for evolutionary tree of thought",
@@ -45,6 +46,7 @@ final_output = run_sequential_prompt_pipeline(
     ],
     model_name="gpt-4o"
 )
+```
 
 Each module prompt is dynamically retrieved and appended to the previous output for rich context evolution.
 
