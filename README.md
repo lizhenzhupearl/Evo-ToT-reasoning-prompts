@@ -54,11 +54,11 @@ Each module prompt is dynamically retrieved and appended to the previous output 
    
 All responses are saved:
 
-As .txt or .md logs in the current folder
+As logs in the current folder
 
 Hypothesis tables are extracted and saved as .csv
 
-🧩 Try out our JupyterNotebook!
+🧩 Try out our [JupyterNotebook](prompting.ipynb)!
 
 📜 License
 MIT — feel free to use or build upon this for scientific or educational purposes.
