@@ -21,17 +21,27 @@ This repository implements a multi-stage prompting system using OpenAI's GPT-4o 
 
 Each stage in the hypothesis generation pipeline is structured as a named module, simulating a logical thought progression:
 
-Module Name	Purpose
-Setting the rules for evolutionary tree of thought	Defines thinking structure, agents, and evaluation pipeline
-check_evolution	Validates improved hypotheses after crossover/mutation
-generating hypothesis with chemical formulas	Forces concrete chemical proposal and rule-based reasoning
-novelty evaluation	Evaluates whether hypotheses are genuinely novel
-context guidance	Provides background research to inspire further refinements
-compare_hypotheses	Performs comparative analysis of generated hypotheses
-summarising_hypothesis	Formats hypotheses into structured tables
-removing_low_feasibility_hypotheses	Filters out weak proposals
-zoom_into_low_temperature_hypotheses	Focuses on low-T materials (<600K)
-summarising_all_hypotheses	Outputs final comparative table and trend summary
+Module Name --	Purpose
+
+`Setting the rules for evolutionary tree of thought` -- Defines thinking structure, agents, and evaluation pipeline
+
+`check_evolution` -- Validates improved hypotheses after crossover/mutation
+
+`generating hypothesis with chemical formulas` -- Forces concrete chemical proposal and rule-based reasoning
+
+`novelty evaluation` -- Evaluates whether hypotheses are genuinely novel
+
+`context guidance` -- Provides background research to inspire further refinements
+
+`compare_hypotheses` -- Performs comparative analysis of generated hypotheses
+
+`summarising_hypothesis` -- Formats hypotheses into structured tables
+
+`removing_low_feasibility_hypotheses` -- Filters out weak proposals
+
+`zoom_into_low_temperature_hypotheses` -- Focuses on low-T materials (<600K)
+
+`summarising_all_hypotheses` -- Outputs final comparative table and trend summary
 
 🧠 **How It Works**
 1. Sequential Prompt Chaining
