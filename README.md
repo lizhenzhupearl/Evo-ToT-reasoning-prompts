@@ -3,7 +3,7 @@
 
 🧪 **Prompt-Driven Hypothesis Evolution Framework for Thermoelectric Materials**
 
-This repository implements a multi-stage prompting system using OpenAI's GPT-4o and reasoning models (like o1 and o3-mini) to simulate expert thinking in generating, evaluating, refining, and summarizing hypotheses for thermoelectric materials discovery.
+This repository implements a multi-stage prompting system using OpenAI's GPT-4o and reasoning models (like o1 and o3-mini) and a vast range of models (check the model map below) to simulate expert thinking in generating, evaluating, refining, and summarizing hypotheses for thermoelectric materials discovery.
 ![Prompting mindmap](tot.png)
 📌 **Features**
 
