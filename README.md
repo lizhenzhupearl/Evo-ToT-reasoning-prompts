@@ -74,6 +74,21 @@ In the model map, we provides the following choices, and you can customise it ba
     }
 ```
 
+🧬 **Diversity and novelty evaluation through existing embeddings**
+
+The model `all-MiniLM-L6-v2` is used to encode each log file from the test models. 
+```
+pip install --upgrade torch torchvision torchaudio transformers sentence-transformers
+```
+After installation, the novelty score can be calculated.
+```
+baseline_embeddings = model.encode(baseline_hypotheses, convert_to_tensor=True)
+hypothesis_embeddings = model.encode(hypothesis_log, convert_to_tensor=True)
+
+novelty_score = 1 - util.cos_sim(hypothesis_embedding, baseline_embeddings).mean().item()
+```
+
+
 🧩 Try out our [JupyterNotebook](prompting.ipynb) and [JupyterNotebook](prompting_openrouter.ipynb)!
 
 📜 License
