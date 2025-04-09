@@ -50,7 +50,7 @@ final_output = run_sequential_prompt_pipeline(
 
 Each module prompt is dynamically retrieved and appended to the previous output for rich context evolution.
 
-3. 📂 LLM Response Logging
+2. 📂 LLM Response Logging
    
 All responses are saved:
 
