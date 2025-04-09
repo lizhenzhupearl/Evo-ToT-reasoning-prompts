@@ -58,7 +58,23 @@ As logs in the current folder
 
 Hypothesis tables are extracted and saved as .csv [Examples](examples)
 
-🧩 Try out our [JupyterNotebook](prompting.ipynb)!
+🧬 **Full coverage of LLMs via OpenRouter**
+
+In the model map, we provides the following choices, and you can customise it based on your own needs.
+```
+    model_map = {
+        "4o": "gpt-4o",  # T=0-2 
+        "o1": "o1", #T = 1
+        "o3-mini": "o3-mini" , # T=1
+        "mistral" : "mistralai/mistral-large-2407", #T 0-3.2
+        "claude" : "anthropic/claude-3.7-sonnet", #T 0-1
+        "gemini" :"google/gemini-pro-1.5",#"google/gemini-2.0-pro-exp-02-05:free",#, "google/gemini-2.5-pro-exp-03-25:free", #T 0-2, topK, topP, slow response
+        "deepseek":"deepseek/deepseek-chat-v3-0324", #"deepseek/deepseek-r1:free", # T 0-1.5, slow response
+        "llama":"meta-llama/llama-3.1-405b-instruct"
+    }
+```
+
+🧩 Try out our [JupyterNotebook](prompting.ipynb) and [JupyterNotebook](prompting_openrouter.ipynb)!
 
 📜 License
 MIT — feel free to use or build upon this for scientific or educational purposes.
