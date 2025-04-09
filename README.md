@@ -89,7 +89,7 @@ novelty_score = 1 - util.cos_sim(hypothesis_embedding, baseline_embeddings).mean
 ```
 
 
-🧩 Try out our [JupyterNotebook](prompting.ipynb) and [JupyterNotebook](prompting_openrouter.ipynb)!
+🧩 Try out our [JupyterNotebook_OpenAI](prompting.ipynb) and [JupyterNotebook_OpenRouter](prompting_openrouter.ipynb)!
 
 📜 License
 MIT — feel free to use or build upon this for scientific or educational purposes.
