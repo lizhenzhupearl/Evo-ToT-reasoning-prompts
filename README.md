@@ -8,17 +8,20 @@ Task 1: <span style="color: blue;">Recall</span>, examinating the knowledge of L
 `Check the 'examples/' fold for full prompts and responses contents. Here, we show the GPT-4o model output.`
 
 1. One-shot prompting with direct input and output.
-<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "Give me the top 5 best performed thermoelectric materials, with their ZT values, use a table to present them." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <img src="images/4o-one-shot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </div>
+<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "Give me the top 5 best performed thermoelectric materials, with their ZT values, use a table to present them." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/4o-one-shot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </pre></div>
 <br>
+
+
+
 2. Chain-of-thought prompting
-<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "Let's think step by step. Give me the top 5 best performed thermoelectric materials, with their ZT values, use a table to present them." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <img src="images/4o-cot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" />  </div>
+<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "Let's think step by step. Give me the top 5 best performed thermoelectric materials, with their ZT values, use a table to present them." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/4o-cot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </pre> </div>
 <br>
 
 3. Tree-of-thought prompting
 
 <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre>"Let's think step by step. Imagine three different experts are answering this question. All experts will write down 1 step of their thinking, then share it with the group, Then all experts will go on to the next step, etc. If any expert realises they're wrong at any point then they leave.
 The task is to find out five best known high performance thermoelectric materials and in order to confirm they are the best ones, you need to compare these materials according to their design strategies, thermoelectric efficiencies, and other key factors that you think fit. 
-I will give you some background information here. Thermoelectric efficiency is governed by ZT = (S²σT)/κ. Traditional materials rely on scarce or toxic elements. Alternatives must optimise electronic transport properties, phonon engineering, and nanostructuring. Conventional approaches focus on band engineering, phonon-glass electron-crystal (PGEC) concepts, and alloy disorder, but breakthrough materials require novel strategies." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <img src="images/4o-tot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" />  </div>
+I will give you some background information here. Thermoelectric efficiency is governed by ZT = (S²σT)/κ. Traditional materials rely on scarce or toxic elements. Alternatives must optimise electronic transport properties, phonon engineering, and nanostructuring. Conventional approaches focus on band engineering, phonon-glass electron-crystal (PGEC) concepts, and alloy disorder, but breakthrough materials require novel strategies." </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/4o-tot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </pre> </div>
 <br><br>
 
 Task 2: <span style="color: blue;">Generation</span>, examinating the capability of LLMs on proposing hypothesis of new thermoelectric materials
@@ -26,7 +29,7 @@ Task 2: <span style="color: blue;">Generation</span>, examinating the capability
 `Check the 'examples/' fold for full prompts and responses contents. Here, we show the GPT-o3-mini model output.`
 
 1. One-shot prompting with direct input and output.
-<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "What is the next promising thermoelectric material, that no one has never reported before? I'd like to have a try. What is the composition of it? Is this material never reported before? Why you propose this one? What is your inspiration? " </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <img src="images/o3-mini-new-one-shot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </div>
+<div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f9f9f9; margin-bottom: 1em;"> <strong>Prompt:</strong><br> <pre> "What is the next promising thermoelectric material, that no one has never reported before? I'd like to have a try. What is the composition of it? Is this material never reported before? Why you propose this one? What is your inspiration? " </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/o3-mini-new-one-shot.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /></pre> </div>
 <br>
 
 2. Evolutionary tree-of-thought prompting
@@ -42,7 +45,7 @@ Task 2: <span style="color: blue;">Generation</span>, examinating the capability
     "zoom_into_low_temperature_hypotheses",
     "summarising_all_hypotheses"
 ] # The sequence of modules to run, you can turn on/off any module
-</pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <img src="images/o3-mini-evo.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </div>
+</pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/o3-mini-evo.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </pre> </div>
 <br>
 
 **Dive deeper**
