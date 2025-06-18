@@ -48,7 +48,7 @@ I will give you some background information here. Thermoelectric efficiency is g
 </pre> </div> <div style="border: 1px solid #cfcfcf; border-radius: 6px; padding: 1em; background-color: #f0f8ff;"> <strong>Response:</strong><br> <pre> <img src="images/o3-mini-evo.png" alt="LLM response" style="max-width: 100%; border-radius: 4px;" /> </pre> </div>
 <br>
 
-**Dive deeper**
+<h1 align="center"> Dive deeper </h1>
 
 🧪 **Prompt-Driven Hypothesis Evolution Framework for Thermoelectric Materials**
 
